@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('assets/images/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    color: #333; /* Default text color */
+}
+
+header {
+    background-color: rgba(0, 123, 255, 0.8); /* Optional: Add transparency to the header background */
+    text-align: center;
+    padding: 1em 0;
+}
+
+.navbar {
+    background-color: rgba(0, 72, 183, 0.8); /* Tech Blue */
+    margin-bottom: 1em;
+}
+
+.nav-link {
+    color: #e0e0e0; /* Tech Grey */
+}
+
+.nav-link:hover {
+    color: #29abe2; /* Tech Blue Hover */
+}
+
+.search-bar {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.search-bar .form-control {
+    display: inline-block;
+    width: auto;
+    max-width: 300px;
+}
+
+.search-bar .btn {
+    background-color: #59ce8f; /* Highlight Green */
+    border-color: #59ce8f;
+}
+
+.search-bar .btn:hover {
+    background-color: #0049b7; /* Brutal Blue */
+    border-color: #0049b7;
+}
+
+.container {
+    padding: 1em;
+}
+
+.contact-info {
+    background-color: white;
+    padding: 2em;
+    margin: 1em auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-info h2 {
+    color: #ff1e00; /* Brightly Orange */
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.contact-info p {
+    color: #333; /* Default text color */
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+.contact-info a {
+    color: #29abe2; /* Tech Blue */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #ff1d58; /* Yass Queen */
+    text-decoration: underline;
+}
+
+.contact-info i {
+    margin-right: 0.5em;
+    color: #555; /* Darker color for better visibility */
+    font-size: 1.5em;
+}
+
+/* Styling for h1 tags */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    color: #51e2f5; /* Bright Blue */
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a subtle shadow */
+    margin-bottom: 0.5em;
+}
+
+/* Styling for weather-info containers */
+.weather-info {
+    background-color: white;
+    padding: 1em;
+    margin: 1em auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    text-align: center;
+    color: #333; /* Default text color */
+}
+
+/* Carousel styles */
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-caption h5 {
+    font-size: 2em;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption p {
+    font-size: 1.2em;
+    color: #dddddd;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Section styles */
+.section {
+    margin-top: 2em;
+}
+
+.section h3 {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #51e2f5; /* Bright Blue */
+    margin-bottom: 0.5em;
+}
+
+.section p {
+    font-size: 1.1em;
+    color: #333333;
+}
+
+.section i {
+    color: #51e2f5; /* Bright Blue */
+    margin-bottom: 0.5em;
+}
